@@ -6,7 +6,7 @@
     char name[20];
     char regd[3];
     char branch[18];
-    char hobbies[17];
+    char hobbies[100];
 
     printf("Enter your name here : ");
     fgets(name, 20, stdin);
@@ -19,7 +19,7 @@
     fgets(branch, 18, stdin);
 
     printf("Enter your hobbies here : ");
-    fgets(hobbies, 17, stdin);
+    fgets(hobbies, 100, stdin);
 
     printf("Name :- %s", name);
     printf("Registration Number :- %s \n", regd);
